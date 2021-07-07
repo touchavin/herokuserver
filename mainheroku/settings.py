@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'appheroku',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,15 @@ WSGI_APPLICATION = 'mainheroku.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbun6dbqscqc5o',
+        'USER': 'ldhnnuvqupirfk',
+        'PASSWORD': '0cbb28b9d768cfb0f88a131363ee35b29c5b43031f9a7fac6309c93de62b9968',
+        'HOST': 'ec2-34-232-191-133.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'CONN_MAX_AGE': 500,
+
+
     }
 }
 
