@@ -7,6 +7,7 @@ django-bootstrap-staticfiles==3.0.0.1
 django-heroku==0.0.0
 django-staticfiles==1.2.1
 django-storages==1.11.1
+django-user-accounts==3.0.4
 djangorestframework==3.12.4
 gunicorn==20.1.0
 ImageHash==4.2.0
